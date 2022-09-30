@@ -1,0 +1,101 @@
+.card{
+    width: 303px;
+    height: 335px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card h1, 
+.card h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card address{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card p{
+    padding: 5px;
+    overflow: auto;
+    max-height: 100px;
+}
+
+.card img{
+    width: 300px;
+    border-top-right-radius: 6px;
+    border-top-left-radius:  6px;
+}
+
+
+.watch-now{
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    background-color: #fff;
+    color: #77002e;
+    font-weight: bolder;
+    border: 2px solid #77002e;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.watch-now:hover{
+    background-color: #77002e;
+    color: #fff;
+}
+
+.nothing-found{
+    text-align: center;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.search-bar{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 17px;
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    left: 500px;
+    bottom: 510px;  
+    z-index: 100;  
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.submit-search{
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid orangered;
+    position: absolute;
+    left: 830px;
+    bottom: 520px;
+    background-color: orangered;
+    color: #fff;
+}
+
+.submit-search:hover{
+    background-color: transparent;
+    color: orangered;
+    font-weight: bolder;
+}

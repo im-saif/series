@@ -1,0 +1,59 @@
+.show-card{
+    width: 666px;
+    height: 666px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: white;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.watch-title{
+    text-align: center;
+    margin: 15px;
+}
+
+.watch-episode{
+    color: red;
+    text-align: center;
+    color: #77002e;
+    margin-bottom: 20px ;
+}
+
+.watch-video{
+    margin-left: 20px;
+}
+
+.previous-episode{
+    margin: 30px;
+    border: 2px solid #77002e;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #77002e;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;    
+}
+
+.previous-episode:hover{
+    background-color: #fff;
+    color: #77002e ;
+}
+
+.next-episode{
+    margin: 30px;
+    border: 2px solid #77002e;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #77002e;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;  
+    transform: translateX(270px);
+}
+
+.next-episode:hover{
+    background-color: #fff;
+    color: #77002e ;
+}
